@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS sdr</title>
+	<script type="text/javascript" >
+	
+		window.onload = init;
+		function init(){
+			var panjang = 10;
+			var lebar = 5;
+			alert("panjang =" + panjang + " lebar ="+ lebar);
+			
+			var infohtml = document.getElementById('id');
+			infohtml.innerHTML = (panjang+lebar)*2;
+		}
+		
+	</script>
+</head>
+<body>
+	<div id = "id"></div>
+
+</body>
+</html>
